@@ -1,0 +1,22 @@
+00:00:01.565102 VirtualBox GUI VM Selector Window 6.1.12 r139181 win.amd64 (Jul 10 2020 22:02:01) release log
+00:00:01.565104 Log opened 2021-04-01T14:30:09.433190600Z
+00:00:01.565105 Build Type: release
+00:00:01.565108 OS Product: Windows 10
+00:00:01.565108 OS Release: 10.0.19042
+00:00:01.565109 OS Service Pack: 
+00:00:01.596245 DMI Product Name: 20EGS03100
+00:00:01.606176 DMI Product Version: ThinkPad W541
+00:00:01.606216 Firmware type: UEFI
+00:00:01.606799 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:01.606843 Host RAM: 16263MB (15.8GB) total, 11263MB (10.9GB) available
+00:00:01.606854 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.606856 Process ID: 19648
+00:00:01.606858 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.607915 Qt version: 5.6.2
+00:00:01.741930 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:03.888120 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:12.090781 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:28.849564 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:42:56.633036 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:42:56.827365 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:43:53.646755 GUI: UIMediumEnumerator: Medium-enumeration finished!

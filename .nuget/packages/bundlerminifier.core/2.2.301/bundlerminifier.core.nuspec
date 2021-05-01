@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BundlerMinifier.Core</id>
+    <version>2.2.301</version>
+    <authors>BundlerMinifier.Core</authors>
+    <owners>Mads Kristensen</owners>
+    <licenseUrl>https://github.com/madskristensen/BundlerMinifier/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/madskristensen/BundlerMinifier/master/src/BundlerMinifierVsix/Resources/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Bundles and minifies CSS, JS and HTML files</description>
+    <tags>concat,bundle,minify,minification,css,js,html</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.0">
+        <dependency id="Microsoft.NETCore.App" version="[1.0.0, )" />
+        <dependency id="NUglify" version="[1.5.1, )" />
+        <dependency id="Newtonsoft.Json" version="[9.0.1, )" />
+      </group>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="NUglify" version="[1.5.1, )" />
+        <dependency id="Newtonsoft.Json" version="[9.0.1, )" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,439 @@
+[2020-01-15 15:15:04.626]: entering -- org.netbeans.installer.Installer.main():81
+[2020-01-15 15:15:04.641]: initializing the installer engine
+[2020-01-15 15:15:04.641]:     entering -- org.netbeans.installer.Installer.<init>():116
+[2020-01-15 15:15:04.641]:     ... initializing ErrorHandler
+[2020-01-15 15:15:04.641]:     ... end of ErrorHandler initialization
+[2020-01-15 15:15:04.641]:     exiting -- org.netbeans.installer.Installer.<init>():116
+[2020-01-15 15:15:04.641]:     entering -- org.netbeans.installer.Installer.<init>():117
+[2020-01-15 15:15:04.641]:     dumping target system information
+[2020-01-15 15:15:04.641]:         system properties:
+[2020-01-15 15:15:04.641]:             awt.toolkit => sun.awt.windows.WToolkit
+[2020-01-15 15:15:04.641]:             file.encoding => Cp1252
+[2020-01-15 15:15:04.641]:             file.encoding.pkg => sun.io
+[2020-01-15 15:15:04.641]:             file.separator => \
+[2020-01-15 15:15:04.641]:             java.awt.graphicsenv => sun.awt.Win32GraphicsEnvironment
+[2020-01-15 15:15:04.641]:             java.awt.printerjob => sun.awt.windows.WPrinterJob
+[2020-01-15 15:15:04.641]:             java.class.path => C:\Users\Lenovo\AppData\Local\Temp\\NBI96280.tmp\bundle.jar
+[2020-01-15 15:15:04.657]:             java.class.version => 52.0
+[2020-01-15 15:15:04.657]:             java.endorsed.dirs => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\endorsed
+[2020-01-15 15:15:04.657]:             java.ext.dirs => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\ext;C:\Windows\Sun\Java\lib\ext
+[2020-01-15 15:15:04.657]:             java.home => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm
+[2020-01-15 15:15:04.657]:             java.io.tmpdir => C:\Users\Lenovo\AppData\Local\Temp\
+[2020-01-15 15:15:04.657]:             java.library.path => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;.
+[2020-01-15 15:15:04.657]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2020-01-15 15:15:04.657]:             java.runtime.version => 1.8.0_101-b13
+[2020-01-15 15:15:04.657]:             java.specification.name => Java Platform API Specification
+[2020-01-15 15:15:04.657]:             java.specification.vendor => Oracle Corporation
+[2020-01-15 15:15:04.657]:             java.specification.version => 1.8
+[2020-01-15 15:15:04.657]:             java.vendor => Oracle Corporation
+[2020-01-15 15:15:04.657]:             java.vendor.url => http://java.oracle.com/
+[2020-01-15 15:15:04.657]:             java.vendor.url.bug => http://bugreport.sun.com/bugreport/
+[2020-01-15 15:15:04.657]:             java.version => 1.8.0_101
+[2020-01-15 15:15:04.657]:             java.vm.info => mixed mode
+[2020-01-15 15:15:04.657]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2020-01-15 15:15:04.657]:             java.vm.specification.name => Java Virtual Machine Specification
+[2020-01-15 15:15:04.657]:             java.vm.specification.vendor => Oracle Corporation
+[2020-01-15 15:15:04.657]:             java.vm.specification.version => 1.8
+[2020-01-15 15:15:04.657]:             java.vm.vendor => Oracle Corporation
+[2020-01-15 15:15:04.657]:             java.vm.version => 25.101-b13
+[2020-01-15 15:15:04.657]:             line.separator => 
+[2020-01-15 15:15:04.657]:             netbeans.default_cachedir_root => C:\Users\Lenovo\AppData\Local\NetBeans\Cache
+[2020-01-15 15:15:04.657]:             netbeans.default_userdir_root => C:\Users\Lenovo\AppData\Roaming\NetBeans
+[2020-01-15 15:15:04.657]:             os.arch => amd64
+[2020-01-15 15:15:04.657]:             os.name => Windows 10
+[2020-01-15 15:15:04.657]:             os.version => 10.0
+[2020-01-15 15:15:04.657]:             path.separator => ;
+[2020-01-15 15:15:04.657]:             sun.arch.data.model => 64
+[2020-01-15 15:15:04.657]:             sun.boot.class.path => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\resources.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\rt.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\sunrsasign.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\jsse.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\jce.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\charsets.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\lib\jfr.jar;C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\classes
+[2020-01-15 15:15:04.657]:             sun.boot.library.path => C:\Users\Lenovo\AppData\Local\Temp\NBI96280.tmp\_jvm\bin
+[2020-01-15 15:15:04.657]:             sun.cpu.endian => little
+[2020-01-15 15:15:04.657]:             sun.cpu.isalist => amd64
+[2020-01-15 15:15:04.657]:             sun.desktop => windows
+[2020-01-15 15:15:04.657]:             sun.io.unicode.encoding => UnicodeLittle
+[2020-01-15 15:15:04.657]:             sun.java.command => org.netbeans.installer.Installer
+[2020-01-15 15:15:04.657]:             sun.java.launcher => SUN_STANDARD
+[2020-01-15 15:15:04.657]:             sun.jnu.encoding => Cp1252
+[2020-01-15 15:15:04.657]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2020-01-15 15:15:04.657]:             sun.os.patch.level => 
+[2020-01-15 15:15:04.657]:             user.country => US
+[2020-01-15 15:15:04.657]:             user.dir => C:\Users\Lenovo\Downloads
+[2020-01-15 15:15:04.657]:             user.home => C:\Users\Lenovo
+[2020-01-15 15:15:04.657]:             user.language => en
+[2020-01-15 15:15:04.657]:             user.name => Lenovo
+[2020-01-15 15:15:04.657]:             user.script => 
+[2020-01-15 15:15:04.657]:             user.timezone => Europe/Berlin
+[2020-01-15 15:15:04.657]:             user.variant => 
+[2020-01-15 15:15:04.657]:     ... end of target system information
+[2020-01-15 15:15:04.657]:     exiting -- org.netbeans.installer.Installer.<init>():117
+[2020-01-15 15:15:04.889]:     loading jni library
+[2020-01-15 15:15:04.889]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2020-01-15 15:15:05.127]:         library file path: C:\Users\Lenovo\AppData\Local\Temp\nbi-787499989641544555.tmp
+[2020-01-15 15:15:05.399]:         ... successfully loaded the library
+[2020-01-15 15:15:05.407]:     entering -- org.netbeans.installer.Installer.<init>():122
+[2020-01-15 15:15:05.407]:     parsing command-line arguments
+[2020-01-15 15:15:05.411]:         ... no command line arguments were specified
+[2020-01-15 15:15:05.411]:     ... finished parsing command line arguments
+[2020-01-15 15:15:05.411]:     exiting -- org.netbeans.installer.Installer.<init>():122
+[2020-01-15 15:15:05.411]:     entering -- org.netbeans.installer.Installer.<init>():123
+[2020-01-15 15:15:05.411]:     loading engine properties
+[2020-01-15 15:15:05.411]:         loading engine properties
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2020-01-15 15:15:05.411]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.welcome.background.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-background.png
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2020-01-15 15:15:05.411]:             loading nbi.product.suggest.install => true
+[2020-01-15 15:15:05.411]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2020-01-15 15:15:05.411]:             loading NWP.welcome.page.bundledproduct.name => jdk
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.ico
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2020-01-15 15:15:05.411]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.head.left.image => resource:org/netbeans/installer/wizard/wizard-title-left.png
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-title-right.png
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.title.prefix => Java SE Development Kit and NetBeans IDE Installer
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.resizable => false
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.motif => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2020-01-15 15:15:05.411]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2020-01-15 15:15:05.411]:             loading NWP.welcome.page.type => bundledproduct
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2020-01-15 15:15:05.411]:             loading nbi.product.remove.corrupted.products.silently => true
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2020-01-15 15:15:05.411]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.metal => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 472
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2020-01-15 15:15:05.411]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 472
+[2020-01-15 15:15:05.411]:     ... finished loading engine properties
+[2020-01-15 15:15:05.411]:     exiting -- org.netbeans.installer.Installer.<init>():123
+[2020-01-15 15:15:05.427]:     initializing the local directory
+[2020-01-15 15:15:05.427]:         ... custom local directory was not specified, using the default
+[2020-01-15 15:15:05.427]:         ... local directory: C:\Users\Lenovo\.nbi
+[2020-01-15 15:15:05.427]:     ... finished initializing local directory
+[2020-01-15 15:15:05.744]:     entering -- org.netbeans.installer.Installer.<init>():129
+[2020-01-15 15:15:05.744]:     ... initializing DownloadManager
+[2020-01-15 15:15:05.760]:         file not exist, queue is empty!
+[2020-01-15 15:15:05.775]:     ... end of initializing DownloadManager
+[2020-01-15 15:15:05.775]:     exiting -- org.netbeans.installer.Installer.<init>():129
+[2020-01-15 15:15:05.775]:     entering -- org.netbeans.installer.Installer.<init>():130
+[2020-01-15 15:15:05.775]:     ... initializing Registry
+[2020-01-15 15:15:05.807]:     ... end of initializing ErrorHandler
+[2020-01-15 15:15:05.807]:     exiting -- org.netbeans.installer.Installer.<init>():130
+[2020-01-15 15:15:05.807]:     entering -- org.netbeans.installer.Installer.<init>():131
+[2020-01-15 15:15:05.807]:     ... initializing Wizard
+[2020-01-15 15:15:07.050]:         ... loading registry from resource:data/registry.xml
+[2020-01-15 15:15:07.165]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:07.165]:         validating previous installations
+[2020-01-15 15:15:07.165]:         ... validating installations finished
+[2020-01-15 15:15:07.165]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:07.181]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [sun.misc.Launcher$AppClassLoader@5c647e05] classloader
+[2020-01-15 15:15:07.196]:     ... end of initializing Wizard
+[2020-01-15 15:15:07.196]:     exiting -- org.netbeans.installer.Installer.<init>():131
+[2020-01-15 15:15:07.196]:     creating lock file
+[2020-01-15 15:15:07.196]:         ... created lock file: C:\Users\Lenovo\.nbi\.nbilock
+[2020-01-15 15:15:07.196]:     finished creating lock file
+[2020-01-15 15:15:07.196]: ... finished initializing the engine
+[2020-01-15 15:15:07.196]: exiting -- org.netbeans.installer.Installer.main():81
+[2020-01-15 15:15:07.196]: entering -- org.netbeans.installer.Installer.main():81
+[2020-01-15 15:15:07.196]: starting the installer
+[2020-01-15 15:15:07.196]:     ... initializing look and feel
+[2020-01-15 15:15:07.196]:         ... custom look and feel class name was not specified, using system default
+[2020-01-15 15:15:07.268]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2020-01-15 15:15:07.268]:         ... get installed L&Fs
+[2020-01-15 15:15:07.284]:         ... set specified L&F
+[2020-01-15 15:15:07.300]:         ... check headless
+[2020-01-15 15:15:07.300]:         ... creating JFileChooser object to check possible issues with UI
+[2020-01-15 15:15:08.915]:         ... getting default Toolkit to check possible issues with UI
+[2020-01-15 15:15:08.915]:         ... creating JProgressBar object to check possible issues with UI
+[2020-01-15 15:15:08.931]:         ... all UI checks done
+[2020-01-15 15:15:08.931]:         ... L&F is set
+[2020-01-15 15:15:08.931]:     ... initializing L&F finished
+[2020-01-15 15:15:09.176]:     NameResolver - to parse &Help!
+[2020-01-15 15:15:09.184]:     NameResolver - to parse < &Back
+[2020-01-15 15:15:09.188]:     NameResolver - to parse &Next >
+[2020-01-15 15:15:09.188]:     NameResolver - to parse Cancel
+[2020-01-15 15:15:09.192]:     NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.196]:     NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.208]:     NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.208]:     NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.212]:     NameResolver - to parse Please wait while Java SE Development Kit and NetBeans IDE installer initializes
+[2020-01-15 15:15:09.276]:     NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.276]:     NameResolver - to parse Please wait while Java SE Development Kit and NetBeans IDE installer initializes
+[2020-01-15 15:15:09.276]: ... finished starting the installer
+[2020-01-15 15:15:09.276]: exiting -- org.netbeans.installer.Installer.main():81
+[2020-01-15 15:15:09.276]: NameResolver - to parse Configuring the Installer...
+[2020-01-15 15:15:09.276]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():73
+[2020-01-15 15:15:09.276]: initializing product registry
+[2020-01-15 15:15:09.276]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():190
+[2020-01-15 15:15:09.276]:     initializing product registry properties
+[2020-01-15 15:15:09.276]:         initializing local product cache directory
+[2020-01-15 15:15:09.276]:         ... C:\Users\Lenovo\.nbi\product-cache
+[2020-01-15 15:15:09.276]:         initializing local product registry file
+[2020-01-15 15:15:09.292]:             ... C:\Users\Lenovo\.nbi\registry.xml
+[2020-01-15 15:15:09.292]:             initializing local product registry stub uri
+[2020-01-15 15:15:09.292]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2020-01-15 15:15:09.292]:             initializing bundled product registry uri
+[2020-01-15 15:15:09.292]:             ... resource:data/registry.xml
+[2020-01-15 15:15:09.292]:             initializing product registry schema uri
+[2020-01-15 15:15:09.292]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2020-01-15 15:15:09.292]:             initializing remote product registries uris
+[2020-01-15 15:15:09.292]:             initializing state file schema uri
+[2020-01-15 15:15:09.292]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2020-01-15 15:15:09.292]:             initializing default state file uri
+[2020-01-15 15:15:09.292]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2020-01-15 15:15:09.292]:             initializing target platform
+[2020-01-15 15:15:09.292]:             ... windows-x64
+[2020-01-15 15:15:09.292]:     initializing product registry properties
+[2020-01-15 15:15:09.292]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():190
+[2020-01-15 15:15:09.292]:     ... loading registry from file:/C:/Users/Lenovo/.nbi/registry.xml
+[2020-01-15 15:15:09.510]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:09.510]:     validating previous installations
+[2020-01-15 15:15:09.823]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.120]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:10.120]:         JDK validation:
+[2020-01-15 15:15:10.120]:         The installation directory C:\Program Files\Java\jdk1.8.0_111 is missing.
+[2020-01-15 15:15:10.120]:         Most likely it was deleted manually.
+[2020-01-15 15:15:10.148]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.176]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.176]:     ... validating installations finished
+[2020-01-15 15:15:10.176]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:10.176]:     ... loading registry from resource:data/registry.xml
+[2020-01-15 15:15:10.196]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:10.196]:     validating previous installations
+[2020-01-15 15:15:10.196]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.196]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.196]:         NameResolver - to parse C:\Program Files\NetBeans 8.2
+[2020-01-15 15:15:10.200]:     ... validating installations finished
+[2020-01-15 15:15:10.200]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():1001
+[2020-01-15 15:15:10.200]: ... product registry initialization complete
+[2020-01-15 15:15:10.200]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():73
+[2020-01-15 15:15:10.200]: NameResolver - to parse Extracting configuration logic for {0}
+[2020-01-15 15:15:10.484]: ... checking if JDK 1.8.0_111 is already installed
+[2020-01-15 15:15:10.484]: ... cannot find key for this Java
+[2020-01-15 15:15:10.484]: ... checking if JDK 1.8.0_111 is already installed
+[2020-01-15 15:15:10.484]: ... cannot find key for this Java
+[2020-01-15 15:15:10.484]: ... bundledProductSkip = null
+[2020-01-15 15:15:10.484]: ... bundledProductToInstall = JDK 8 Update 111
+[2020-01-15 15:15:10.484]: ... NetBeans is already installed, install only bundled product
+[2020-01-15 15:15:10.531]: NameResolver - to parse resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-background.png
+[2020-01-15 15:15:10.578]: NameResolver - to parse &Help!
+[2020-01-15 15:15:10.578]: NameResolver - to parse < &Back
+[2020-01-15 15:15:10.578]: NameResolver - to parse &Next >
+[2020-01-15 15:15:10.578]: NameResolver - to parse Cancel
+[2020-01-15 15:15:10.578]: NameResolver - to parse <html><h2 style="color: #000000; bold">Welcome to the {0} and NetBeans IDE 8.2 Installer</h2>
+[2020-01-15 15:15:10.578]: NameResolver - to parse The installer will install the {0} and NetBeans IDE.<br>
+[2020-01-15 15:15:10.578]: NameResolver - to parse </html>
+[2020-01-15 15:15:10.578]: NameResolver - to parse text/html
+[2020-01-15 15:15:10.609]: NameResolver - to parse <html>
+[2020-01-15 15:15:10.609]: NameResolver - to parse NetBeans IDE 8.2 is already installed.<br>Click next if you want to proceed with JDK 8 Update 111 installation.
+[2020-01-15 15:15:10.609]: NameResolver - to parse NetBeans IDE 8.2 is already installed.<br>Click next if you want to proceed with JDK 8 Update 111 installation.
+[2020-01-15 15:15:10.609]: NameResolver - to parse text/html
+[2020-01-15 15:15:10.609]: NameResolver - to parse <html>
+[2020-01-15 15:15:10.609]: NameResolver - to parse </html>
+[2020-01-15 15:15:10.609]: NameResolver - to parse text/html
+[2020-01-15 15:15:10.609]: NameResolver - to parse &Customize...
+[2020-01-15 15:15:10.624]: NameResolver - to parse Installation Size: {0}
+[2020-01-15 15:15:10.624]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:10.640]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:10.656]: NameResolver - to parse <dummy description>
+[2020-01-15 15:15:12.648]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:14.654]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:16.667]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:17.814]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2020-01-15 15:15:17.814]: NameResolver - to parse $N{install_x64}/Java/jdk1.8.0_111
+[2020-01-15 15:15:17.814]:       --- Path C:\Program Files
+[2020-01-15 15:15:17.814]:       --- parsed to C:\Program Files/Java/jdk1.8.0_111
+[2020-01-15 15:15:17.814]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:17.938]: NameResolver - to parse &Help!
+[2020-01-15 15:15:17.938]: NameResolver - to parse < &Back
+[2020-01-15 15:15:17.938]: NameResolver - to parse &Next >
+[2020-01-15 15:15:17.938]: NameResolver - to parse Cancel
+[2020-01-15 15:15:17.938]: NameResolver - to parse &Install the JDK™ to:
+[2020-01-15 15:15:17.938]: NameResolver - to parse B&rowse...
+[2020-01-15 15:15:17.938]: NameResolver - to parse Java SE Developer Kit (JDK) 8 Update 111 Installation
+[2020-01-15 15:15:17.938]: NameResolver - to parse Java SE Developer Kit (JDK) 8 Update 111 Installation
+[2020-01-15 15:15:17.938]: NameResolver - to parse Java SE Developer Kit (JDK) 8 Update 111 Installation
+[2020-01-15 15:15:17.938]: NameResolver - to parse Java SE Developer Kit (JDK) 8 Update 111 Installation
+[2020-01-15 15:15:17.938]: NameResolver - to parse Choose the installation folder for JDK
+[2020-01-15 15:15:17.954]: NameResolver - to parse Java SE Developer Kit (JDK) 8 Update 111 Installation
+[2020-01-15 15:15:17.954]: NameResolver - to parse Choose the installation folder for JDK
+[2020-01-15 15:15:24.437]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.453]: NameResolver - to parse &Help!
+[2020-01-15 15:15:24.453]: NameResolver - to parse < &Back
+[2020-01-15 15:15:24.453]: NameResolver - to parse &Install
+[2020-01-15 15:15:24.453]: NameResolver - to parse Cancel
+[2020-01-15 15:15:24.453]: NameResolver - to parse &Install
+[2020-01-15 15:15:24.453]: NameResolver - to parse {0} Installation Folder:
+[2020-01-15 15:15:24.453]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.453]: NameResolver - to parse The following components will be uninstalled:
+[2020-01-15 15:15:24.453]: NameResolver - to parse Total Installation Size:
+[2020-01-15 15:15:24.453]: NameResolver - to parse Total Download Size:
+[2020-01-15 15:15:24.468]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]: Roots : C:\, E:\
+[2020-01-15 15:15:24.468]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]:     [C:\] <- C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]: NameResolver - to parse Summary
+[2020-01-15 15:15:24.468]: NameResolver - to parse Summary
+[2020-01-15 15:15:24.468]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]: Roots : C:\, E:\
+[2020-01-15 15:15:24.468]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]:     [C:\] <- C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:24.468]: NameResolver - to parse Summary
+[2020-01-15 15:15:24.468]: NameResolver - to parse Summary
+[2020-01-15 15:15:24.468]: NameResolver - to parse Click Install to start the installation.
+[2020-01-15 15:15:24.468]: NameResolver - to parse Summary
+[2020-01-15 15:15:24.468]: NameResolver - to parse Click Install to start the installation.
+[2020-01-15 15:15:26.477]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:26.477]: Roots : C:\, E:\
+[2020-01-15 15:15:26.477]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:26.477]:     [C:\] <- C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:27.619]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:27.619]: Roots : C:\, E:\
+[2020-01-15 15:15:27.619]: NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:27.619]:     [C:\] <- C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:27.634]: NameResolver - to parse &Help!
+[2020-01-15 15:15:27.634]: NameResolver - to parse < &Back
+[2020-01-15 15:15:27.634]: NameResolver - to parse &Next >
+[2020-01-15 15:15:27.634]: NameResolver - to parse Cancel
+[2020-01-15 15:15:27.634]: NameResolver - to parse Preparing Installation Data...
+[2020-01-15 15:15:27.634]: NameResolver - to parse Preparing Installation Data...
+[2020-01-15 15:15:27.634]: NameResolver - to parse Preparing Installation Data...
+[2020-01-15 15:15:27.634]: NameResolver - to parse Preparing Installation Data...
+[2020-01-15 15:15:27.634]: NameResolver - to parse Please wait while the wizard prepares the installation data.
+[2020-01-15 15:15:27.634]: NameResolver - to parse Preparing Installation Data...
+[2020-01-15 15:15:27.634]: NameResolver - to parse Please wait while the wizard prepares the installation data.
+[2020-01-15 15:15:27.634]: entering -- org.netbeans.installer.wizard.components.WizardAction$1.run():123
+[2020-01-15 15:15:27.634]: getting all installation data
+[2020-01-15 15:15:27.634]:     NameResolver - to parse Extracting installation data for {0}
+[2020-01-15 15:15:28.460]: ... finished getting of the installation data
+[2020-01-15 15:15:28.460]: exiting -- org.netbeans.installer.wizard.components.WizardAction$1.run():123
+[2020-01-15 15:15:28.460]: NameResolver - to parse &Help!
+[2020-01-15 15:15:28.460]: NameResolver - to parse < &Back
+[2020-01-15 15:15:28.460]: NameResolver - to parse &Next >
+[2020-01-15 15:15:28.460]: NameResolver - to parse Cancel
+[2020-01-15 15:15:28.460]: NameResolver - to parse Installation
+[2020-01-15 15:15:28.460]: NameResolver - to parse Installation
+[2020-01-15 15:15:28.460]: NameResolver - to parse Installation
+[2020-01-15 15:15:28.460]: NameResolver - to parse Installation
+[2020-01-15 15:15:28.460]: NameResolver - to parse Please wait while the installer installs NetBeans IDE and runtimes.
+[2020-01-15 15:15:28.475]: NameResolver - to parse Installation
+[2020-01-15 15:15:28.475]: NameResolver - to parse Please wait while the installer installs NetBeans IDE and runtimes.
+[2020-01-15 15:15:28.475]: Start products installation
+[2020-01-15 15:15:28.475]:     NameResolver - to parse Installing {0}...
+[2020-01-15 15:15:28.475]:     Start installation of JDK 8 Update 111(jdk/1.8.0.111.1464)
+[2020-01-15 15:15:28.475]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.475]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.475]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.475]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.475]:         ... extracting files from the data archives
+[2020-01-15 15:15:28.475]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.522]:         deleting file: C:\Users\Lenovo\AppData\Local\Temp\nbi-1135859166195115986.tmp
+[2020-01-15 15:15:28.538]:         extracting C:\Program Files\Java\jdk1.8.0_111\jdk-8u111-windows-x64.exe
+[2020-01-15 15:15:28.975]:         deleting file: C:\Users\Lenovo\.nbi\tmp\data,1.jar
+[2020-01-15 15:15:28.991]:         ... saving legal artifacts if required
+[2020-01-15 15:15:28.991]:         ... running installation logic
+[2020-01-15 15:15:28.991]:         NameResolver - to parse C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:28.991]:         ... checking if JDK 1.8.0_111 is already installed
+[2020-01-15 15:15:28.991]:         ... cannot find key for this Java
+[2020-01-15 15:15:28.991]:         ... checking if JDK 1.8.0_111 is already installed
+[2020-01-15 15:15:28.991]:         ... cannot find key for this Java
+[2020-01-15 15:15:28.991]:         ... perform full silent installation
+[2020-01-15 15:15:28.991]:         ... JDK installation log file : C:\Users\Lenovo\.nbi\log\20200115151504_jdk_install.log
+[2020-01-15 15:15:28.991]:         Installing JDK with exe installer
+[2020-01-15 15:15:29.007]:         executing command: C:\Users\Lenovo\AppData\Local\Temp\pathConverter.cmd, in directory: .
+[2020-01-15 15:15:29.065]:             [stdout]: C:\PROGRA~1\Java\JDK18~1.0_1
+[2020-01-15 15:15:29.065]:             [return]: 0
+[2020-01-15 15:15:29.065]:         ... command execution finished
+[2020-01-15 15:15:29.065]:         deleting file: C:\Users\Lenovo\AppData\Local\Temp\pathConverter.cmd
+[2020-01-15 15:15:29.065]:         ... tempdir : C:\Users\Lenovo\AppData\Local\Temp\nbi-1323911148506419468.tmp
+[2020-01-15 15:15:29.065]:         NameResolver - to parse $E{ProgramFiles}
+[2020-01-15 15:15:29.065]:         NameResolver - to parse $E{ProgramFiles}\Sun\JavaDB
+[2020-01-15 15:15:29.065]:         ... new ProgressThread created
+[2020-01-15 15:15:29.065]:         ... directories : C:\Program Files\Java\jdk1.8.0_111, C:\Users\Lenovo\AppData\Local\Temp\nbi-1323911148506419468.tmp, C:\Program Files\Java\jre7, C:\Program Files\Sun\JavaDB
+[2020-01-15 15:15:29.065]:         ...   initial : 204090936
+[2020-01-15 15:15:29.065]:         ...     delta : 532327671
+[2020-01-15 15:15:29.065]:         executing command: C:\Program Files\Java\jdk1.8.0_111\jdk-8u111-windows-x64.exe /s /qn /lv C:\Users\Lenovo\.nbi\log\20200115151504_jdk_install.log INSTALLDIR=C:\PROGRA~1\Java\JDK18~1.0_1 REBOOT=ReallySuppress, in directory: C:\Program Files\Java\jdk1.8.0_111
+[2020-01-15 15:15:29.065]:             ... progress thread started
+[2020-01-15 15:17:33.744]:             [return]: 0
+[2020-01-15 15:17:33.744]:         ... command execution finished
+[2020-01-15 15:17:34.649]:         ... progress thread finished
+[2020-01-15 15:17:34.649]:         ... configuring JRE Product
+[2020-01-15 15:17:34.649]:         ... checking if JDK 1.8.0_111 is already installed
+[2020-01-15 15:17:34.649]:         executing command: C:\Program Files\Java\jre1.8.0_111\bin\java.exe -classpath C:\Users\Lenovo\.nbi\tmp TestJDK, in directory: .
+[2020-01-15 15:17:35.192]:             [stdout]: 1.8.0_111
+[2020-01-15 15:17:35.192]:             [stdout]: 25.111-b14
+[2020-01-15 15:17:35.192]:             [stdout]: Oracle Corporation
+[2020-01-15 15:17:35.192]:             [stdout]: Windows 10
+[2020-01-15 15:17:35.192]:             [stdout]: amd64
+[2020-01-15 15:17:35.192]:             [return]: 0
+[2020-01-15 15:17:35.192]:         ... command execution finished
+[2020-01-15 15:17:35.192]:         ... java.version    = 1.8.0_111
+[2020-01-15 15:17:35.192]:         ... java.vm.version = 25.111-b14
+[2020-01-15 15:17:35.192]:         ... java.vendor     = Oracle Corporation
+[2020-01-15 15:17:35.192]:         ... os.name         = Windows 10
+[2020-01-15 15:17:35.192]:         ... os.arch         = amd64
+[2020-01-15 15:17:35.192]:         ... version string : 1.8.0_111
+[2020-01-15 15:17:35.192]:         ... put jdk info to the Java map
+[2020-01-15 15:17:35.192]:         ... configuring JavaDB Product...
+[2020-01-15 15:17:35.192]:         deleting file: C:\Program Files\Java\jdk1.8.0_111\jdk-8u111-windows-x64.exe
+[2020-01-15 15:17:35.192]:             ... file does not exist
+[2020-01-15 15:17:35.196]:         ... register in system, create uninstaller, etc
+[2020-01-15 15:17:35.196]:         ... save installation files list
+[2020-01-15 15:17:35.208]:     ... finished installation of JDK 8 Update 111(jdk/1.8.0.111.1464)
+[2020-01-15 15:17:35.415]: ... finished products installation
+[2020-01-15 15:17:35.431]: Checking if java.awt.Desktop.getDesktop().browse() functionality is supported
+[2020-01-15 15:17:35.447]: NameResolver - to parse &Help!
+[2020-01-15 15:17:35.447]: NameResolver - to parse < &Back
+[2020-01-15 15:17:35.447]: NameResolver - to parse &Finish
+[2020-01-15 15:17:35.447]: NameResolver - to parse Cancel
+[2020-01-15 15:17:35.447]: NameResolver - to parse &Finish
+[2020-01-15 15:17:35.462]: NameResolver - to parse text/html
+[2020-01-15 15:17:35.462]: NameResolver - to parse <html><b>Installation completed successfully.</b></html>
+[2020-01-15 15:17:35.478]: ... restart is required property: null
+[2020-01-15 15:17:35.478]: NameResolver - to parse Setup Complete
+[2020-01-15 15:17:35.478]: NameResolver - to parse Setup Complete
+[2020-01-15 15:17:35.478]: NameResolver - to parse Setup Complete
+[2020-01-15 15:17:35.478]: NameResolver - to parse Setup Complete
+[2020-01-15 15:17:35.478]: NameResolver - to parse Click Finish to finish the NetBeans IDE setup.
+[2020-01-15 15:17:35.493]: NameResolver - to parse Setup Complete
+[2020-01-15 15:17:35.493]: NameResolver - to parse Click Finish to finish the NetBeans IDE setup.
+[2020-01-15 15:18:47.167]: entering -- org.netbeans.installer.wizard.components.actions.FinalizeRegistryAction.execute():66
+[2020-01-15 15:18:47.167]: finalizing product registry
+[2020-01-15 15:18:47.167]:     ... removing remaining installation data for all the products
+[2020-01-15 15:18:47.167]:     ... save local registry if necessary
+[2020-01-15 15:18:47.167]:     ... save registry to file C:\Users\Lenovo\.nbi\registry.xml
+[2020-01-15 15:18:47.167]:     entering -- org.netbeans.installer.product.Registry.finalizeRegistry():349
+[2020-01-15 15:18:47.167]:     saving product registry file
+[2020-01-15 15:18:47.167]:         ... getting registry document
+[2020-01-15 15:18:47.194]:         ... saving registry document to file C:\Users\Lenovo\.nbi\registry.xml
+[2020-01-15 15:18:47.194]:         entering -- org.netbeans.installer.product.Registry.saveProductRegistry():1027
+[2020-01-15 15:18:47.194]:         saving document to xml file : C:\Users\Lenovo\.nbi\registry.xml
+[2020-01-15 15:18:47.310]:         ... document saved
+[2020-01-15 15:18:47.310]:         exiting -- org.netbeans.installer.product.Registry.saveProductRegistry():1027
+[2020-01-15 15:18:47.310]:         ... saving XML file succesfully finished
+[2020-01-15 15:18:47.310]:     ... saving product registry done
+[2020-01-15 15:18:47.310]:     exiting -- org.netbeans.installer.product.Registry.finalizeRegistry():349
+[2020-01-15 15:18:47.310]:     ... save state file if necessary
+[2020-01-15 15:18:47.310]: finalizing product registry
+[2020-01-15 15:18:47.310]: exiting -- org.netbeans.installer.wizard.components.actions.FinalizeRegistryAction.execute():66

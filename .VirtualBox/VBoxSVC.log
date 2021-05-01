@@ -1,0 +1,91 @@
+00:00:00.009126 main     VirtualBox COM Server 6.1.12 r139181 win.amd64 (Jul 10 2020 22:02:01) release log
+00:00:00.009129 main     Log opened 2021-04-29T14:09:41.375469300Z
+00:00:00.009130 main     Build Type: release
+00:00:00.009136 main     OS Product: Windows 10
+00:00:00.009137 main     OS Release: 10.0.19042
+00:00:00.009138 main     OS Service Pack: 
+00:00:00.184426 main     DMI Product Name: 20EGS03100
+00:00:00.225248 main     DMI Product Version: ThinkPad W541
+00:00:00.225291 main     Firmware type: UEFI
+00:00:00.226064 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.226119 main     Host RAM: 16263MB (15.8GB) total, 11688MB (11.4GB) available
+00:00:00.226132 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.226135 main     Process ID: 508
+00:00:00.226136 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.430332          VirtualBox: object creation starts
+00:00:00.434724          Home directory: 'C:\Users\Lenovo\.VirtualBox'
+00:00:00.435782          Installed Drivers:
+00:00:00.453816            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.12.39181)
+00:00:00.456067            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.12.39181)
+00:00:00.457484            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.12.39181)
+00:00:00.459503            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.12.39181)
+00:00:00.494120          Loading settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.511651          usbLibGetDevices: Starting USB device enumeration
+00:00:00.512239          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.513525          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 11
+00:00:00.513851          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 12
+00:00:00.651935          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.656560          USB: Unknown USB device detected (idVendor: 0x04ca, idProduct: 0x7035)
+00:00:00.662507          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x07dc)
+00:00:00.981175          HostDnsMonitor: initializing
+00:00:01.005124          HostDnsMonitor: updating information
+00:00:01.006643          HostDnsMonitor: old information
+00:00:01.006647            no server entries
+00:00:01.006649            no domain set
+00:00:01.006650            no search string entries
+00:00:01.006651          HostDnsMonitor: new information
+00:00:01.006652            server 1: 172.16.10.2
+00:00:01.006654            server 2: 8.8.8.8
+00:00:01.006655            no domain set
+00:00:01.006656            no search string entries
+00:00:01.121522          VD: VDInit finished with VINF_SUCCESS
+00:00:01.137899          Loading settings file "C:\Users\Lenovo\VirtualBox VMs\Windows10\Windows10.vbox" with version "1.15-windows"
+00:00:01.150422          Loading settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+00:00:01.152167          VirtualBox: object created
+00:00:10.922325          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:10.936926          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:56.792981 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:56.793980 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:01:56.794562 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 11
+00:01:56.795069 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&a5ebaf3&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 12
+00:01:56.924810 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:03:00.253603 dns-monitor HostDnsMonitor: updating information
+00:03:00.253648 dns-monitor HostDnsMonitor: unchanged
+00:11:47.538202 dns-monitor HostDnsMonitor: updating information
+00:11:47.538268 dns-monitor HostDnsMonitor: unchanged
+00:17:21.009761          Launched VM: 64962592 pid: 9692 (0x25dc) frontend: GUI/Qt name: windows server
+00:17:25.222631          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:17:41.988239          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+00:20:35.647854 dns-monitor HostDnsMonitor: updating information
+00:20:35.647881 dns-monitor HostDnsMonitor: unchanged
+00:22:01.782275          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+00:22:01.822214          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+00:22:02.760537          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+00:22:06.524239          Launched VM: 65239808 pid: 8932 (0x22e4) frontend: GUI/Qt name: windows server
+00:22:10.220814          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:22:10.524817          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:29:22.667357 dns-monitor HostDnsMonitor: updating information
+00:29:22.667446 dns-monitor HostDnsMonitor: unchanged
+00:38:08.694350 dns-monitor HostDnsMonitor: updating information
+00:38:08.694373 dns-monitor HostDnsMonitor: unchanged
+00:46:55.729321 dns-monitor HostDnsMonitor: updating information
+00:46:55.729349 dns-monitor HostDnsMonitor: unchanged
+00:55:42.772984 dns-monitor HostDnsMonitor: updating information
+00:55:42.773022 dns-monitor HostDnsMonitor: unchanged
+00:57:24.906864          Launched VM: 65250176 pid: 84 (0x54) frontend: GUI/Qt name: Windows10
+00:57:28.482235          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:57:28.755814          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:01:23.041447          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\Windows10\Windows10.vbox" with version "1.15-windows"
+01:04:29.831672 dns-monitor HostDnsMonitor: updating information
+01:04:29.831717 dns-monitor HostDnsMonitor: unchanged
+01:13:17.897654 dns-monitor HostDnsMonitor: updating information
+01:13:17.897686 dns-monitor HostDnsMonitor: unchanged
+01:20:36.344023          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+01:20:37.804529          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\windows server\windows server.vbox" with version "1.15-windows"
+01:20:41.892706          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\Windows10\Windows10.vbox" with version "1.15-windows"
+01:20:43.115793          Saving settings file "C:\Users\Lenovo\VirtualBox VMs\Windows10\Windows10.vbox" with version "1.15-windows"
+01:20:46.782226          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:46.794953          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:46.828811          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:46.840902          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:20:46.848505          Saving settings file "C:\Users\Lenovo\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
